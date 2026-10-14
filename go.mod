@@ -1,8 +1,6 @@
 module github.com/PretendoNetwork/puyo-puyo-tetris
 
-go 1.23.0
-
-toolchain go1.24.4
+go 1.25.0
 
 require (
 	github.com/PretendoNetwork/grpc/go v0.0.0-20250618215822-5c5f4e26185d
@@ -12,13 +10,13 @@ require (
 	github.com/PretendoNetwork/plogger-go v1.1.0
 	github.com/joho/godotenv v1.5.1
 	github.com/minio/minio-go/v7 v7.0.94
-	google.golang.org/grpc v1.73.0
+	google.golang.org/grpc v1.83.2
 )
 
 require (
 	github.com/PretendoNetwork/pq-extended v1.0.0 // indirect
 	github.com/bahlo/generic-list-go v0.2.0 // indirect
-	github.com/buger/jsonparser v1.1.1 // indirect
+	github.com/buger/jsonparser v1.1.2 // indirect
 	github.com/dolthub/maphash v0.1.0 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/fatih/color v1.18.0 // indirect
@@ -41,14 +39,14 @@ require (
 	github.com/superwhiskers/crunch/v3 v3.5.7 // indirect
 	github.com/tinylib/msgp v1.3.0 // indirect
 	github.com/wk8/go-ordered-map/v2 v2.1.8 // indirect
-	golang.org/x/crypto v0.39.0 // indirect
+	golang.org/x/crypto v0.55.0 // indirect
 	golang.org/x/exp v0.0.0-20250620022241-b7579e27df2b // indirect
-	golang.org/x/mod v0.25.0 // indirect
-	golang.org/x/net v0.41.0 // indirect
-	golang.org/x/sys v0.33.0 // indirect
-	golang.org/x/term v0.32.0 // indirect
-	golang.org/x/text v0.26.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20250603155806-513f23925822 // indirect
-	google.golang.org/protobuf v1.36.6 // indirect
+	golang.org/x/mod v0.38.0 // indirect
+	golang.org/x/net v0.58.0 // indirect
+	golang.org/x/sys v0.47.0 // indirect
+	golang.org/x/term v0.45.0 // indirect
+	golang.org/x/text v0.41.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260526163538-3dc84a4a5aaa // indirect
+	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
